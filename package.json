@@ -8,6 +8,7 @@
     "start": "tsc-watch --onSuccess \" node index.js \" "
   },
   "dependencies": {
+    "tsc": "^2.0.4",
     "tsc-watch": "^5.0.3"
   }
 }
