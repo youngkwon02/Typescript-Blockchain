@@ -29,8 +29,9 @@ class Block {
   }
 }
 
+
 const genesisBlock = new Block(0, "2020202020", "", "Hellooooo", 12345667);
-const blockChain: [Block] = [genesisBlock];
+const blockChain: Block[] = [genesisBlock];
 
 console.log(blockChain)
 
